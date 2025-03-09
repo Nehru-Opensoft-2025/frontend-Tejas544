@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.hierarchy {
+    width: 50%;
+    max-width: 800px;
+}
+.hierarchy ul {
+    display: none;  
+    list-style: none;
+    padding-left: 20px;
+}
+
+.level, .sublevel { 
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    background: #b2d3f6;
+    color: rgb(0, 0, 0);
+    margin: 5px 0;
+    border-radius: 5px;
+    width: auto;
+}
+
+.sublevel {
+    background: #4aa2ff;
+    margin-left: 20px;
+}
+
+.item {
+    padding: 5px;
+    background: #ffffff;
+    margin: 2px 0;
+    border-radius: 3px;
+    width: auto;
+}
+
+.visible {
+    display: block; 
+}
